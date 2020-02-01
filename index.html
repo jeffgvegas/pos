@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>POS</title>
+    <style>
+      *{
+	      margin:0;
+	      padding:0;
+	      border:0;
+      }   
+
+      body {
+        background-image: url(/back_smoke.jpg);
+        background-size: cover;
+      }
+
+      h1 {
+          padding-left: 15px;
+          font-size: 4em;
+          color: aliceblue;
+          position: fixed;
+      }
+    
+      .one, .two, .three, .four {
+          text-align:center;
+      }
+
+      button {
+          padding: 5% 13% 5% 13%;
+          margin: 1% 1% 1% 1%;
+          border: 2px solid white;
+          font-family: fantasy; 
+          font-size: 1.75em;
+          background-color: black;
+          opacity: .8;
+          color: aliceblue;
+          box-shadow: 0 0 10px 1px white;
+      }
+
+      #wrapper {
+          border: 10px solid black;
+          width: 600px;
+	        margin-top: 1%;
+          margin-left: 25%;
+          background-image: url(/back_center.jpg);
+          position:fixed;
+          box-shadow: 0 0 20px 10px white;
+          }
+      
+      #add {
+        color: teal;
+        background-color: white;
+        border:10px solid teal;
+      }
+    
+    </style>
+    <script>
+    
+    </script>
+    </head>
+    <body>
+        <h1>DPL POS</h1>
+    <div id="wrapper">
+      <div class="one">
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3">3</button>
+      </div>
+      <div class="two">
+        <button id="4">4</button>
+        <button id="5">5</button>
+        <button id="6">6</button>
+      </div> 
+      <div class="three">   
+        <button id="7">7</button>
+        <button id="8">8</button>
+        <button id="9">9</button>
+      </div>  
+      <div class="four">  
+        <button id="decimal">.</button>
+        <button id="0">0</button>
+        <button id="add">ADD<br/>AMOUNT</button>
+      </div>
+    </div>
+    </body>
+</html>
